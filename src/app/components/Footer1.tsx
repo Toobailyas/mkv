@@ -11,7 +11,7 @@ export default function Footer() {
               <a className="flex title-font font-medium items-center justify-center md:justify-start">
                 <Image
                   className="rounded-full"
-                  src="/Images/mk-logo.jpg"
+                  src="/images/mk-logo.jpg"
                   height={50}
                   width={50}
                   alt="logo"
