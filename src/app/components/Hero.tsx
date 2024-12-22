@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div id='hero'  className="h-screen bg-cover bg-center bg-fixed flex flex-col justify-between"
     style={{
-      backgroundImage: "url('/images/cover-pic (1).jpg')", // Background image
+      backgroundImage: "url('/images/cover.jpg')", // Background image
     }}>
          <div className="flex-1 flex items-center justify-center text-center text-white bg-black bg-opacity-50">
         <div>

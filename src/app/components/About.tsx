@@ -10,7 +10,7 @@ const About = () => (
             About <span className="text-green-900"> Us</span> 
           </h3>
           <p>
-            MK Volunteers is a youth-led initiative founded by students of <span> The Citizens Foundation</span> with a mission to empower and guide Young minds. Our Team is dedicated to support juniors in thir academic and extracurricular pursuits,hrlping them build confidence and achive their goals.
+            MK Volunteers is a youth-led initiative founded by students of <span> The Citizens Foundation</span> with a mission to empower and guide Young minds. Our Team is dedicated to support juniors in their academic and extracurricular pursuits,helping them build confidence and achieve their goals.
             The purpose of this volunteer team is to support all students in
             every way they need, for the sake of Allah... 
           </p>

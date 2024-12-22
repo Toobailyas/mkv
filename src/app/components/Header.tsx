@@ -58,7 +58,7 @@ const Header = () => {
 
       {/* Mobile Menu */}       
       {isMenuOpen && (         
-        <ul className="flex flex-col gap-2 bg-black bg-opacity-75 p-9 rounded-lg md:hidden text-white fixed top-0 left-0 w-full z-40 mt-24"> 
+        <ul className="flex flex-col gap-2 bg-black bg-opacity-75 p-9 md:hidden text-white fixed top-0 left-0 w-full z-40 mt-24"> 
           <li className="menuLink">             
             <a href="/" onClick={toggleMenu}>               
               Home             
@@ -71,7 +71,7 @@ const Header = () => {
           </li>                     
 
           <li className="menuLink">             
-            <a href="/routes/about#ourTeam" onClick={toggleMenu}>               
+            <a href="/routes/about#team" onClick={toggleMenu}>               
               Our Team             
             </a>           
           </li>           
@@ -82,7 +82,12 @@ const Header = () => {
           </li>
 
           <li className="menuLink">             
-            <a href="/routes/contact" onClick={toggleMenu}>               
+            <a href="/routes/contact#join" onClick={toggleMenu}>               
+              Join Us             
+            </a>           
+          </li>
+          <li className="menuLink">             
+            <a href="/routes/faq" onClick={toggleMenu}>               
               Join Us             
             </a>           
           </li> 

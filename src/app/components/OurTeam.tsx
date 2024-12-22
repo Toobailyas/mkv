@@ -117,7 +117,7 @@ const OurTeam = () => (
                         alt={member.name}
                         className="w-24 h-24 mx-auto rounded-full object-cover shadow-md"
                     />
-                    <h3 className="mt-4 text-xl lg:text-2xl font-bold">{member.name}</h3>
+                    <h3 className="mt-4 text-xl lg:text-2xl text-black focus font-bold">{member.name}</h3>
                     <p className="text-gray-600">{member.role}</p>
                     <p className="text-gray-700 font-semibold">{member.position}</p>
                     <p className="text-gray-500">{member.lead}</p>
