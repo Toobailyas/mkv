@@ -5,7 +5,7 @@ import Link from "next/link";
 const About = () => (
     <section id="about" className="py-12 px-4 bg-gray-50">
        <div className="flex flex-col justify-center place-content-center text-center">
-        <div className=" mt-10 mx-7 ">
+        <div className=" my-7  mx-7 ">
           <h3 className="mb-4 text-4xl sm:text-2xl lg:text-4xl font-bold ">
             About <span className="text-green-900"> Us</span> 
           </h3>

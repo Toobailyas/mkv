@@ -4,7 +4,8 @@ const teamMembers = [
     {
         name: "Nishat Kanwal",
         position: "Board Member",
-        image: "/images/board-member.png",
+        role: "Education manager at TCF",
+        image: "/images/mam nishat.jpeg",
     },
     {
         name: "Muhammad Khan",
@@ -16,7 +17,7 @@ const teamMembers = [
     },
     {
         name: "Muzammil",
-        role: "FLT",
+        role: "FLT (Co-Founder)",
         position: "Management Manager",
         lead: "Lead by: 11th & 12th",
         image: "/images/team2.jpg",
@@ -27,7 +28,7 @@ const teamMembers = [
         role: "Subject Lead",
         position: "Math & Eng Lead",
         lead: "Lead by: 11th & 12th",
-        image: "/images/dummy.jpg",
+        image: "/images/jaweria.jpeg",
         email: "jaweriaamjad24680@gmail.com",
     },
     {
@@ -43,7 +44,7 @@ const teamMembers = [
         role: "Subject Lead",
         position: "Chem Lead",
         lead: "Lead by: 9th & 10th",
-        image: "/images/dummy.jpg",
+        image: "/images/shamshad.jpeg",
         email: "shamshadsattar33@gmail.com",
     },
     {
@@ -51,7 +52,7 @@ const teamMembers = [
         role: "Subject Lead",
         position: "Physics Lead",
         lead: "Lead by: 9th & 10th ",
-        image: "/images/dummy.jpg",
+        image: "/images/kousar.jpeg",
         email: "fatimakousar149@gmail.com",
     },
     {
@@ -59,7 +60,7 @@ const teamMembers = [
         role: "Subject Lead",
         position: "Math Lead",
         lead: "Lead by: 9th",
-        image: "/images/dummy.jpg",
+        image: "/images/nimra.jpeg",
         email: "nimramalik04180418@gmail.com",
     },
     {
@@ -67,7 +68,7 @@ const teamMembers = [
         role: "Subject Lead",
         position: "Eng Lead",
         lead: "Lead by: 9th & 10th",
-        image: "/images/dummy.jpg",
+        image: "/images/umaima.jpeg",
         email: "maimyy07@gmail.com",
     },
     {
@@ -75,7 +76,7 @@ const teamMembers = [
         role: "Subject Lead",
         position: "Biology Lead",
         lead: "Lead by: 9th & 10th",
-        image: "/images/dummy.jpg",
+        image: "/images/rabia.jpeg",
         email: "ak1931815@gmail.com",
     },
     {
@@ -83,7 +84,7 @@ const teamMembers = [
         role: "Subject Lead",
         position: "Islamiat Lead",
         lead: "Lead by: 9th & 10th",
-        image: "/images/dummy.jpg",
+        image: "/images/khushboo.jpeg",
         email: "khushboomansoor2005@gmail.com",
     },
     {
@@ -91,7 +92,7 @@ const teamMembers = [
         role: "Subject Lead",
         position: "Urdu Lead",
         lead: "Lead by: 9th & 12th",
-        image: "/images/dummy.jpg",
+        image: "/images/shumaila.jpeg",
         email: "shumailaali463@gmail.com",
     },
 ];
@@ -105,54 +106,18 @@ const OurTeam = () => (
             Meet the passionate individuals behind MK Volunteers who are dedicated to making a positive impact.
         </p>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="p-4 bg-white shadow-lg rounded-lg text-center col-span-1">
-                <img
-                    src={teamMembers[0].image}
-                    alt={teamMembers[0].name}
-                    className="w-24 h-24 mx-auto rounded-full object-cover shadow-md"
-                />
-                <h3 className="mt-4 text-2xl font-bold">{teamMembers[0].name}</h3>
-                <p className="text-gray-600">{teamMembers[0].role}</p>
-                <p className="text-gray-700 font-semibold">{teamMembers[0].position}</p>
-            </div>
 
-            <div className="p-4 bg-white shadow-lg rounded-lg text-center col-span-1">
-                <img
-                    src={teamMembers[1].image}
-                    alt={teamMembers[1].name}
-                    className="w-24 h-24 mx-auto rounded-full object-cover shadow-md"
-                />
-                <h3 className="mt-4 text-2xl font-bold">{teamMembers[1].name}</h3>
-                <p className="text-gray-600">{teamMembers[1].role}</p>
-                <p className="text-gray-700 font-semibold">{teamMembers[1].position}</p>
-                <p className="text-gray-500">{teamMembers[1].lead}</p>
-                <p className="text-gray-800">{teamMembers[1].email}</p>
-            </div>
-
-            <div className="p-4 bg-white shadow-lg rounded-lg text-center col-span-1">
-                <img
-                    src={teamMembers[2].image}
-                    alt={teamMembers[2].name}
-                    className="w-24 h-24 mx-auto rounded-full object-cover shadow-md"
-                />
-                <h3 className="mt-4 text-2xl font-bold">{teamMembers[2].name}</h3>
-                <p className="text-gray-600">{teamMembers[2].role}</p>
-                <p className="text-gray-700 font-semibold">{teamMembers[2].position}</p>
-                <p className="text-gray-500">{teamMembers[2].lead}</p>
-                <p className="text-gray-800">{teamMembers[2].email}</p>
-            </div>
-
-            {teamMembers.slice(3).map((member, index) => (
+            {teamMembers.map((member, index) => (
                 <div
-                    key={index + 3}
-                    className="p-4 bg-white shadow-lg rounded-lg text-center"
+                    key={index +0}
+                    className="p-4 bg-white shadow-lg rounded-lg text-center transition-transform duration-300 ease-in-out transform hover:scale-110"
                 >
                     <img
                         src={member.image}
                         alt={member.name}
                         className="w-24 h-24 mx-auto rounded-full object-cover shadow-md"
                     />
-                    <h3 className="mt-4 text-2xl font-bold">{member.name}</h3>
+                    <h3 className="mt-4 text-xl lg:text-2xl font-bold">{member.name}</h3>
                     <p className="text-gray-600">{member.role}</p>
                     <p className="text-gray-700 font-semibold">{member.position}</p>
                     <p className="text-gray-500">{member.lead}</p>
