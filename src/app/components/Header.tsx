@@ -88,7 +88,7 @@ const Header = () => {
           </li>
           <li className="menuLink">             
             <a href="/routes/faq" onClick={toggleMenu}>               
-              Join Us             
+              FAQ            
             </a>           
           </li> 
         </ul>       
