@@ -95,6 +95,14 @@ const teamMembers = [
         image: "/images/shumaila.jpeg",
         email: "shumailaali463@gmail.com",
     },
+    {
+        name: "Tooba Ilyas",
+        role: "IT Manager",
+        position: "Comp Volunteer",
+        lead: "Lead by: 9th & 10th",
+        image: "/images/shamshad.jpeg",
+        email: "metooba111@gmail.com",
+    },
 ];
 
 const OurTeam = () => (
