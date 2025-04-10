@@ -100,7 +100,7 @@ const teamMembers = [
         role: "IT Manager",
         position: "Comp Volunteer",
         lead: "Lead by: 9th & 10th",
-        image: "/images/shamshad.jpeg",
+        image: "default-avatar-profile-icon-grey-photo-placeholder-female-no-photo-images-for-unfilled-user-profile-greyscale-illustration-for-socail-media-web-vector.jpg",
         email: "metooba111@gmail.com",
     },
 ];
